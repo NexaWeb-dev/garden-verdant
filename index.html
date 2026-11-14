@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VERDANT | Plants, Flowers &amp; Gardening Studio | Bring Nature Home</title>
+<meta name="description" content="VERDANT is a plant nursery, flower shop and gardening studio. Shop indoor plants, outdoor plants, fresh flower bouquets, pots and gardening essentials. Bring nature home.">
+<meta name="theme-color" content="#234B36">
+<link rel="canonical" href="https://www.example.com/">
+
+<!-- Open Graph. Replace og:url and og:image with absolute URLs after deployment -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="VERDANT | Plants, Flowers &amp; Gardening Studio">
+<meta property="og:description" content="Indoor plants, fresh flowers and gardening essentials. Bring nature home.">
+<meta property="og:url" content="https://www.example.com/">
+<meta property="og:image" content="https://www.example.com/assets/images/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Store structured data. Keep in step with CONFIG in js/script.js -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "VERDANT Plants, Flowers & Gardening Studio",
+  "description": "A plant nursery, flower shop and gardening accessories store.",
+  "url": "https://www.example.com/",
+  "image": "https://www.example.com/assets/images/og-image.jpg",
+  "telephone": "+91 98765 43210",
+  "email": "hello@verdant.example",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14 Garden Lane, Indiranagar",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560038",
+    "addressCountry": "IN"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ============ ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-chev-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-chev-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="i-chev-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V4M5 11l7-7 7 7"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v16M5 13l7 7 7-7"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.500-3.500"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.800 5.600a5 5 0 0 0-7.100 0L12 7.300l-1.700-1.700a5 5 0 0 0-7.100 7.100l1.700 1.700L12 21l7.100-6.600 1.700-1.700a5 5 0 0 0 0-7.100z"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 7h12l1 13H5z"/><path d="M9 7V6a3 3 0 0 1 6 0v1"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M1.500 12S5.500 5 12 5s10.500 7 10.500 7-4 7-10.500 7S1.500 12 1.500 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 10 4 20 4c0 10-5 16-13 16"/><path d="M5 19l7-7"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M12 21v-9"/><path d="M12 12C12 7 8 5 4 5c0 4 2 7 8 7zM12 14c0-4 3-6 8-6 0 4-2 6-8 6z"/></symbol>
+    <symbol id="i-flower" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.500"/><path d="M12 9.500C10 6 10 3 12 2c2 1 2 4 0 7.500zM12 14.500C14 18 14 21 12 22c-2-1-2-4 0-7.500zM9.500 12C6 14 3 14 2 12c1-2 4-2 7.500 0zM14.500 12C18 10 21 10 22 12c-1 2-4 2-7.500 0z"/></symbol>
+    <symbol id="i-droplet" viewBox="0 0 24 24"><path d="M12 3s6.500 6.500 6.500 11a6.500 6.500 0 0 1-13 0C5.500 9.500 12 3 12 3z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M2 12h2M20 12h2M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M1 5h13v11H1zM14 9h4l4 4v3h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.500l8 3v6c0 5-3.400 8.800-8 10.500-4.600-1.700-8-5.500-8-10.500v-6z"/><path d="M8.500 12l2.500 2.500 4.500-4.500"/></symbol>
+    <symbol id="i-pot" viewBox="0 0 24 24"><path d="M5 9h14l-1.500 11h-11z"/><path d="M4 9h16M12 9V4M12 6c0-2 2-3 4-3 0 2-2 3-4 3zM12 7c0-2-2-3-4-3 0 2 2 3 4 3z"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14.700 6.300a4 4 0 0 0 5 5L22 13.600l-2.400 2.400-9-9zM3 21l8-8M5 19l2 2"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="4" height="6" rx="1.500"/><rect x="18" y="14" width="4" height="6" rx="1.500"/><path d="M20 20c0 1.500-2 2-5 2"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4"/><path d="M12 8v13M5 12v9h14v-9M12 8H8a2.500 2.500 0 1 1 0-5c2 0 4 3 4 5zM12 8h4a2.500 2.500 0 1 0 0-5c-2 0-4 3-4 5z"/></symbol>
+    <symbol id="i-package" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5v8l9 5 9-5zM3 8l9 5 9-5M12 13v8"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.900v3a2 2 0 0 1-2.200 2 19.800 19.800 0 0 1-8.600-3.100 19.500 19.500 0 0 1-6-6A19.800 19.800 0 0 1 2.100 4.200 2 2 0 0 1 4.100 2h3a2 2 0 0 1 2 1.700c.1 1 .4 1.900.7 2.800a2 2 0 0 1-.5 2.100L8.100 9.900a16 16 0 0 0 6 6l1.300-1.300a2 2 0 0 1 2.100-.4c.9.3 1.800.6 2.800.7a2 2 0 0 1 1.700 2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.500a8.500 8.500 0 0 1-12.600 7.400L3 21l2.200-5.200A8.500 8.500 0 1 1 21 11.500z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.500 6.500h.01"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-pinterest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10.500 17.500l1.800-7.200M9 12.500c-.6-2.600 1.200-4.500 3.400-4.500 1.900 0 3 1.300 3 2.800 0 2-1.200 3.500-2.800 3.500-.8 0-1.400-.5-1.400-1.200"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M22 8.500a3 3 0 0 0-2.100-2.100C18 6 12 6 12 6s-6 0-7.900.4A3 3 0 0 0 2 8.500 31 31 0 0 0 1.600 12 31 31 0 0 0 2 15.500a3 3 0 0 0 2.100 2.100C6 18 12 18 12 18s6 0 7.900-.4a3 3 0 0 0 2.100-2.100 31 31 0 0 0 .4-3.500 31 31 0 0 0-.4-3.500z"/><path d="M10 15l5-3-5-3z"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress" aria-hidden="true"><span></span></div>
+
+<!-- ============ ANNOUNCEMENT BAR ============ -->
+<div class="announce" id="announce" role="region" aria-label="Announcement">
+  <div class="container announce__in">
+    <p><span data-cfg="announce">Make Your Space Greener &ndash; Explore Our New Plant Collection.</span> <span class="announce__offer" data-cfg="offer">Free local delivery on orders above &#8377;999 (sample offer).</span></p>
+    <a class="announce__cta" href="#shop">Shop Now<svg class="ic"><use href="#i-arrow"/></svg></a>
+    <button type="button" class="announce__close" id="announceClose" aria-label="Close announcement"><svg class="ic"><use href="#i-x"/></svg></button>
+  </div>
+</div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="container nav__in">
+    <a class="logo" href="#home" aria-label="VERDANT, home">
+      <svg class="ic logo__leaf" aria-hidden="true"><use href="#i-sprout"/></svg>
+      <span class="logo__text">VERDANT<small>Plants, Flowers &amp; Gardening</small></span>
+    </a>
+    <nav class="nav__menu" id="navMenu" aria-label="Main">
+      <ul>
+        <li><a href="#home" data-nav>Home</a></li>
+        <li><a href="#shop" data-nav>Shop</a></li>
+        <li><a href="#bestsellers" data-nav>Plants</a></li>
+        <li><a href="#flowers" data-nav>Flowers</a></li>
+        <li><a href="#gardening" data-nav>Gardening</a></li>
+        <li><a href="#about" data-nav>About Us</a></li>
+        <li><a href="#contact" data-nav>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav__tools">
+      <button type="button" class="icon-btn" id="searchBtn" aria-label="Search products"><svg class="ic"><use href="#i-search"/></svg></button>
+      <button type="button" class="icon-btn" id="wishBtn" aria-label="Open wishlist, 0 items" aria-haspopup="dialog"><svg class="ic"><use href="#i-heart"/></svg><span class="count" id="wishCount" hidden>0</span></button>
+      <button type="button" class="icon-btn" id="cartBtn" aria-label="Open cart, 0 items" aria-haspopup="dialog"><svg class="ic"><use href="#i-bag"/></svg><span class="count" id="cartCount" hidden>0</span></button>
+      <a class="btn btn--accent btn--sm nav__cta" href="#shop">Shop Now</a>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="scrim" id="scrim" hidden></div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <img class="hero__bg" src="assets/images/hero.jpg" alt="Lush palm leaves in a sunlit botanical conservatory" width="1800" height="1100" fetchpriority="high">
+  <div class="hero__shade" aria-hidden="true"></div>
+  <svg class="leaf leaf--1" viewBox="0 0 80 120" aria-hidden="true"><path d="M40 118C8 92 4 44 40 4c36 40 32 88 0 114z"/><path d="M40 20v96" /></svg>
+  <svg class="leaf leaf--2" viewBox="0 0 80 120" aria-hidden="true"><path d="M40 118C8 92 4 44 40 4c36 40 32 88 0 114z"/><path d="M40 20v96" /></svg>
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="label label--light">Grow Something Beautiful</p>
+      <h1 id="hero-title">Bring Nature Home. <em>Let Life Bloom.</em></h1>
+      <p class="hero__lead">Discover beautiful indoor plants, fresh flowers and everything you need to create your own little green paradise.</p>
+      <div class="hero__cta">
+        <a class="btn btn--accent" href="#shop">Explore Collection<svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--line" href="#about">Discover Our Story</a>
+      </div>
+    </div>
+    <div class="hero__card">
+      <img src="assets/images/hero-inset.jpg" alt="Close-up of a glossy monstera leaf" width="700" height="860">
+      <p class="badge-new"><svg class="ic"><use href="#i-leaf"/></svg>New Arrivals</p>
+      <a class="hero__card-link" href="#shop" data-new-arrivals>This season&rsquo;s plants<svg class="ic"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+  <a class="scroll" href="#trust" aria-label="Scroll to the next section"><span>Scroll</span><i aria-hidden="true"></i></a>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="trust" id="trust" aria-label="What we offer">
+  <ul class="container trust__grid">
+    <li><svg class="ic"><use href="#i-sprout"/></svg><div><strong>100+ Plant Varieties</strong><span>Indoor, outdoor and flowering</span></div></li>
+    <li><svg class="ic"><use href="#i-flower"/></svg><div><strong>Fresh Flower Collections</strong><span>Bouquets for every occasion</span></div></li>
+    <li><svg class="ic"><use href="#i-tools"/></svg><div><strong>Quality Gardening Essentials</strong><span>Pots, tools and plant care</span></div></li>
+    <li><svg class="ic"><use href="#i-leaf"/></svg><div><strong>Carefully Selected Plants</strong><span>Chosen for healthy growth</span></div></li>
+  </ul>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section" id="categories" aria-labelledby="cat-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Shop by Category</p>
+      <h2 id="cat-title">Find Your Perfect <em>Green Companion.</em></h2>
+    </header>
+    <ul class="cat-grid" id="catGrid"><!-- rendered from CATEGORIES in js/script.js --></ul>
+  </div>
+</section>
+
+<!-- ============ SHOP ============ -->
+<section class="section section--sand" id="shop" aria-labelledby="shop-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">The Collection</p>
+      <h2 id="shop-title">Explore Our <em>Green Collection.</em></h2>
+      <p class="note-box"><svg class="ic"><use href="#i-leaf"/></svg><span><strong>Sample catalogue.</strong> Products, prices and availability shown are demo data for this website. Replace them with the shop&rsquo;s real inventory.</span></p>
+    </header>
+
+    <div class="toolbar reveal">
+      <div class="search" role="search">
+        <label class="sr" for="searchInput">Search products, categories or keywords</label>
+        <svg class="ic search__ic" aria-hidden="true"><use href="#i-search"/></svg>
+        <input id="searchInput" type="search" placeholder="Search plants, flowers, pots..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="suggest" aria-autocomplete="list">
+        <button type="button" class="search__clear" id="searchClear" aria-label="Clear search" hidden><svg class="ic"><use href="#i-x"/></svg></button>
+        <ul class="suggest" id="suggest" role="listbox" aria-label="Search suggestions" hidden></ul>
+      </div>
+      <div class="sort">
+        <label for="sortSelect">Sort by</label>
+        <select id="sortSelect">
+          <option value="popular">Popular products</option>
+          <option value="new">Newest arrivals</option>
+          <option value="low">Price: Low to High</option>
+          <option value="high">Price: High to Low</option>
+          <option value="az">Alphabetical</option>
+        </select>
+      </div>
+    </div>
+    <div class="filters reveal" id="shopFilters" role="group" aria-label="Filter products by category"></div>
+    <div class="shop__status">
+      <p class="shop__count" id="shopCount" aria-live="polite"></p>
+      <button type="button" class="tag-pill" id="activeTag" hidden></button>
+    </div>
+    <ul class="product-grid" id="productGrid"><!-- rendered from PRODUCTS in js/script.js --></ul>
+    <div class="empty" id="noResults" hidden>
+      <svg class="ic"><use href="#i-search"/></svg>
+      <h3>No products found</h3>
+      <p>Try a different word, or clear the search and filters.</p>
+      <button type="button" class="btn btn--primary" id="resetShop">Clear search &amp; filters</button>
+    </div>
+    <div class="center"><button type="button" class="btn btn--line-dark" id="loadMore">Load More<svg class="ic"><use href="#i-chev-down"/></svg></button></div>
+  </div>
+</section>
+
+<!-- ============ BESTSELLERS ============ -->
+<section class="section" id="bestsellers" aria-labelledby="best-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Plants</p>
+      <h2 id="best-title">Our Customers&rsquo; <em>Favourite Greens.</em></h2>
+      <p>Popular picks from the collection. Labels are editorial sample labels, not sales figures.</p>
+    </header>
+    <ul class="product-grid product-grid--best" id="bestGrid"></ul>
+  </div>
+</section>
+
+<!-- ============ FLOWERS ============ -->
+<section class="section section--forest" id="flowers" aria-labelledby="flowers-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label label--light">Flower Collection</p>
+      <h2 id="flowers-title">Flowers That <em>Speak Without Words.</em></h2>
+      <p>Hand-tied bouquets and arrangements, prepared to order. Message us on WhatsApp to place a flower order.</p>
+    </header>
+    <ul class="flower-grid" id="flowerGrid"></ul>
+    <div class="center"><a class="btn btn--accent" href="#shop" data-filter-link="flowers">Explore Collection<svg class="ic"><use href="#i-arrow"/></svg></a></div>
+  </div>
+</section>
+
+<!-- ============ GARDENING ============ -->
+<section class="section" id="gardening" aria-labelledby="garden-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Gardening Essentials</p>
+      <h2 id="garden-title">Everything Your <em>Garden Needs.</em></h2>
+    </header>
+    <ul class="essentials" id="essentials"></ul>
+    <ul class="product-grid product-grid--best" id="gardenGrid"></ul>
+  </div>
+</section>
+
+<!-- ============ GUIDE ============ -->
+<section class="section section--sand" id="guide" aria-labelledby="guide-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Plant Care Guide</p>
+      <h2 id="guide-title">Grow Better With the <em>Right Care.</em></h2>
+    </header>
+    <ul class="article-grid" id="articleGrid"></ul>
+  </div>
+</section>
+
+<!-- ============ WHY / ABOUT ============ -->
+<section class="section" id="about" aria-labelledby="why-title">
+  <div class="container why">
+    <div class="why__media reveal">
+      <img class="why__img1" src="assets/images/rose-path.jpg" alt="A garden path lined with blooming rose bushes" width="800" height="900" loading="lazy">
+      <img class="why__img2" src="assets/images/plant-shelf.jpg" alt="A shelf of potted houseplants beside a white wall" width="800" height="900" loading="lazy">
+    </div>
+    <div class="why__text reveal">
+      <p class="label">Why Shop With Us &middot; Our Story</p>
+      <h2 id="why-title">A Little Studio for <em>Everyday Greenery.</em></h2>
+      <p class="lead">VERDANT began with a simple idea: everyone should be able to live with plants. We pick healthy plants, pair them with the right pots and share simple care advice so they thrive in your home.</p>
+      <ul class="why__list">
+        <li><span class="why__icon"><svg class="ic"><use href="#i-sprout"/></svg></span><div><h3>Healthy Quality Plants</h3><p>Chosen for strong growth and good form.</p></div></li>
+        <li><span class="why__icon"><svg class="ic"><use href="#i-leaf"/></svg></span><div><h3>Carefully Selected Collections</h3><p>A focused range instead of endless choice.</p></div></li>
+        <li><span class="why__icon"><svg class="ic"><use href="#i-gift"/></svg></span><div><h3>Affordable Pricing</h3><p>Fair prices from small starter plants up.</p></div></li>
+        <li><span class="why__icon"><svg class="ic"><use href="#i-help"/></svg></span><div><h3>Gardening Guidance</h3><p>Care tips and a plant finder to guide you.</p></div></li>
+        <li><span class="why__icon"><svg class="ic"><use href="#i-flower"/></svg></span><div><h3>Beautiful Flower Arrangements</h3><p>Hand-tied bouquets for every occasion.</p></div></li>
+        <li><span class="why__icon"><svg class="ic"><use href="#i-headset"/></svg></span><div><h3>Customer Support</h3><p>Ask us anything on WhatsApp or by phone.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANT FINDER ============ -->
+<section class="section section--forest finder" id="finder" aria-labelledby="finder-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label label--light">Plant Care Finder</p>
+      <h2 id="finder-title">Find the Perfect Plant for <em>Your Space.</em></h2>
+      <p>Answer four quick questions and we will suggest plants that suit your space, light, time and budget.</p>
+    </header>
+    <div class="finder__grid reveal">
+      <form class="finder__form" id="finderForm" novalidate>
+        <fieldset class="q"><legend><span>1</span>Where do you want to keep the plant?</legend>
+          <div class="opts" data-q="place">
+            <label class="opt"><input type="radio" name="place" value="bedroom"><span>Bedroom</span></label>
+            <label class="opt"><input type="radio" name="place" value="living"><span>Living Room</span></label>
+            <label class="opt"><input type="radio" name="place" value="balcony"><span>Balcony</span></label>
+            <label class="opt"><input type="radio" name="place" value="office"><span>Office</span></label>
+            <label class="opt"><input type="radio" name="place" value="garden"><span>Garden</span></label>
+          </div></fieldset>
+        <fieldset class="q"><legend><span>2</span>How much sunlight is available?</legend>
+          <div class="opts">
+            <label class="opt"><input type="radio" name="light" value="low"><span>Low Light</span></label>
+            <label class="opt"><input type="radio" name="light" value="indirect"><span>Indirect Sunlight</span></label>
+            <label class="opt"><input type="radio" name="light" value="direct"><span>Direct Sunlight</span></label>
+          </div></fieldset>
+        <fieldset class="q"><legend><span>3</span>How much time can you spend on plant care?</legend>
+          <div class="opts">
+            <label class="opt"><input type="radio" name="care" value="1"><span>Very Little</span></label>
+            <label class="opt"><input type="radio" name="care" value="2"><span>Moderate</span></label>
+            <label class="opt"><input type="radio" name="care" value="3"><span>Daily Care</span></label>
+          </div></fieldset>
+        <fieldset class="q"><legend><span>4</span>What is your budget?</legend>
+          <div class="opts">
+            <label class="opt"><input type="radio" name="budget" value="0-199"><span>Under &#8377;200</span></label>
+            <label class="opt"><input type="radio" name="budget" value="200-500"><span>&#8377;200&ndash;&#8377;500</span></label>
+            <label class="opt"><input type="radio" name="budget" value="500-1000"><span>&#8377;500&ndash;&#8377;1,000</span></label>
+            <label class="opt"><input type="radio" name="budget" value="1000-99999"><span>Above &#8377;1,000</span></label>
+          </div></fieldset>
+        <div class="finder__actions"><button type="submit" class="btn btn--accent">Find My Plants<svg class="ic"><use href="#i-arrow"/></svg></button><button type="button" class="btn btn--line" id="finderReset">Reset</button></div>
+        <p class="err err--light" id="finderErr" aria-live="polite"></p>
+      </form>
+      <div class="finder__results" id="finderResults" aria-live="polite" tabindex="-1">
+        <div class="finder__empty"><svg class="ic"><use href="#i-sprout"/></svg><p>Your matching plants will appear here.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DELIVERY ============ -->
+<section class="section" id="delivery" aria-labelledby="deliv-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Local Delivery</p>
+      <h2 id="deliv-title">Fresh Greens, Delivered to Your <em>Doorstep.</em></h2>
+      <p class="note-box"><svg class="ic"><use href="#i-truck"/></svg><span><strong>Sample policy.</strong> Delivery areas, charges and times below are configurable placeholders. The shop confirms availability and timing when it accepts an order.</span></p>
+    </header>
+    <ul class="deliv-grid">
+      <li class="deliv reveal"><svg class="ic"><use href="#i-pin"/></svg><h3>Delivery Area</h3><p data-cfg="deliv-area">Local delivery within the shop&rsquo;s service area in Bengaluru. Ask us about your PIN code.</p></li>
+      <li class="deliv reveal"><svg class="ic"><use href="#i-clock"/></svg><h3>Estimated Time</h3><p data-cfg="deliv-time">Typically same day or next day for local orders. Confirmed by the shop after you order.</p></li>
+      <li class="deliv reveal"><svg class="ic"><use href="#i-package"/></svg><h3>Plant Packaging</h3><p>Plants are wrapped to protect leaves and stems, and pots are secured to limit soil spills in transit.</p></li>
+      <li class="deliv reveal"><svg class="ic"><use href="#i-flower"/></svg><h3>Flower Delivery</h3><p>Bouquets are prepared to order. Share the date and time you need and the shop will confirm.</p></li>
+      <li class="deliv reveal"><svg class="ic"><use href="#i-chat"/></svg><h3>Order Tracking</h3><p>This demo has no live tracking. A real shop would update you by WhatsApp or phone about your order.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section--sand" id="reviews" aria-labelledby="reviews-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Kind Words</p>
+      <h2 id="reviews-title">From Our <em>Plant Lovers.</em></h2>
+      <p>Sample testimonials for this demonstration. Replace them with genuine customer reviews.</p>
+    </header>
+    <div class="slider reveal" id="slider" role="region" aria-roledescription="carousel" aria-label="Customer reviews">
+      <div class="slider__viewport" id="sliderViewport"><div class="slider__track" id="sliderTrack">
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 4">
+          <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span>
+          <blockquote>My snake plant arrived neatly packed and it has thrived on my bedroom shelf. The care card was simple and actually useful. I have already ordered a ZZ plant.</blockquote>
+          <figcaption><img src="assets/images/customer-1.jpg" alt="" width="160" height="160" loading="lazy"><span><strong>Rahul Mehta</strong>Bought: Snake Plant</span></figcaption>
+        </figure>
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 4">
+          <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span>
+          <blockquote>The birthday bouquet was fresh and beautifully tied. My mother loved it. Ordering over WhatsApp was easy and the team replied quickly.</blockquote>
+          <figcaption><img src="assets/images/customer-2.jpg" alt="" width="160" height="160" loading="lazy"><span><strong>Ananya Reddy</strong>Bought: Mixed Flower Bouquet</span></figcaption>
+        </figure>
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 4">
+          <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span>
+          <blockquote>I am new to gardening and the plant finder pointed me to the right plants for my balcony. Pots and fertiliser were easy to pick too. Very helpful.</blockquote>
+          <figcaption><img src="assets/images/customer-3.jpg" alt="" width="160" height="160" loading="lazy"><span><strong>Siddharth Rao</strong>Bought: Hibiscus &amp; Terracotta Pots</span></figcaption>
+        </figure>
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="4 of 4">
+          <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span>
+          <blockquote>The peace lily in a ceramic planter looks lovely in our office. The care guide on the website answered all my questions about watering.</blockquote>
+          <figcaption><img src="assets/images/customer-4.jpg" alt="" width="160" height="160" loading="lazy"><span><strong>Meera Iyer</strong>Bought: Peace Lily</span></figcaption>
+        </figure>
+      </div></div>
+      <div class="slider__bar">
+        <button type="button" class="round" id="prevSlide" aria-label="Previous review"><svg class="ic"><use href="#i-chev-left"/></svg></button>
+        <div class="dots" id="dots" role="group" aria-label="Choose review"></div>
+        <button type="button" class="round" id="nextSlide" aria-label="Next review"><svg class="ic"><use href="#i-chev-right"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFERS ============ -->
+<section class="section" id="offers" aria-labelledby="offers-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Special Offers</p>
+      <h2 id="offers-title">Little Treats for <em>Greener Homes.</em></h2>
+      <p class="note-box"><svg class="ic"><use href="#i-gift"/></svg><span><strong>Sample offers.</strong> These offers and codes are for demonstration and are not real discounts. The cart applies a sample welcome code for illustration.</span></p>
+    </header>
+    <ul class="offers" id="offerGrid"></ul>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--sand" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label">Visit &amp; Contact</p>
+      <h2 id="contact-title">Come Say <em>Hello.</em></h2>
+      <p>Sample shop details for this demonstration. Update them in the CONFIG block of js/script.js.</p>
+    </header>
+    <div class="contact__grid">
+      <div class="contact__info reveal">
+        <h3>VERDANT Plants, Flowers &amp; Gardening Studio</h3>
+        <ul class="info">
+          <li><span class="info__icon"><svg class="ic"><use href="#i-pin"/></svg></span><div><h4>Store address</h4><p data-cfg="address">14 Garden Lane, Indiranagar, Bengaluru, Karnataka 560038</p></div></li>
+          <li><span class="info__icon"><svg class="ic"><use href="#i-phone"/></svg></span><div><h4>Phone</h4><p><a data-cfg-tel href="tel:+919876543210">+91 98765 43210</a></p></div></li>
+          <li><span class="info__icon"><svg class="ic"><use href="#i-chat"/></svg></span><div><h4>WhatsApp</h4><p><a data-cfg-wa href="#contact" target="_blank" rel="noopener noreferrer">Message the shop<span class="sr"> (opens in a new tab)</span></a></p></div></li>
+          <li><span class="info__icon"><svg class="ic"><use href="#i-mail"/></svg></span><div><h4>Email</h4><p><a data-cfg-mail href="mailto:hello@verdant.example">hello@verdant.example</a></p></div></li>
+          <li><span class="info__icon"><svg class="ic"><use href="#i-clock"/></svg></span><div><h4>Opening hours</h4><p>Mon to Sat: 9:00 AM to 8:00 PM<br>Sunday: 9:00 AM to 2:00 PM</p></div></li>
+        </ul>
+        <div class="map" role="img" aria-label="Map placeholder for the shop location">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="200" fill="#E4EADB"/><path d="M-10 150 L420 60 M-10 60 L420 150 M120 -10 L260 210 M300 -10 L150 210" stroke="#F7F5EC" stroke-width="14" fill="none"/><path d="M-10 100 L420 100" stroke="#F7F5EC" stroke-width="8" fill="none"/><circle cx="200" cy="100" r="40" fill="#234B36" opacity=".14"/></svg>
+          <span class="map__pin"><svg class="ic"><use href="#i-pin"/></svg></span>
+        </div>
+        <div class="contact__actions">
+          <a class="btn btn--dark" id="directions" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-pin"/></svg>Get Directions<span class="sr"> (opens in a new tab)</span></a>
+          <a class="btn btn--wa" data-cfg-wa-btn href="#contact" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-chat"/></svg>WhatsApp<span class="sr"> (opens in a new tab)</span></a>
+          <a class="btn btn--line-dark" data-ig href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-instagram"/></svg>Instagram<span class="sr"> (opens in a new tab)</span></a>
+        </div>
+      </div>
+      <div class="contact__card reveal">
+        <h3>Send us a message</h3>
+        <form id="contactForm" novalidate>
+          <div class="field"><label for="c-name">Name <span aria-hidden="true">*</span></label><input id="c-name" type="text" autocomplete="name" required aria-describedby="c-name-e"><p class="err" id="c-name-e" aria-live="polite"></p></div>
+          <div class="field"><label for="c-phone">Phone number <span aria-hidden="true">*</span></label><input id="c-phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="c-phone-e"><p class="err" id="c-phone-e" aria-live="polite"></p></div>
+          <div class="field"><label for="c-email">Email <span aria-hidden="true">*</span></label><input id="c-email" type="email" autocomplete="email" required aria-describedby="c-email-e"><p class="err" id="c-email-e" aria-live="polite"></p></div>
+          <div class="field"><label for="c-subject">Subject <span aria-hidden="true">*</span></label><input id="c-subject" type="text" required aria-describedby="c-subject-e"><p class="err" id="c-subject-e" aria-live="polite"></p></div>
+          <div class="field"><label for="c-msg">Message <span aria-hidden="true">*</span></label><textarea id="c-msg" rows="4" maxlength="600" required aria-describedby="c-msg-e"></textarea><p class="err" id="c-msg-e" aria-live="polite"></p></div>
+          <button class="btn btn--dark btn--block" id="contactSubmit" type="submit"><span class="btn__label">Send Message</span><span class="spinner" aria-hidden="true"></span></button>
+          <p class="form-note">Demo form: your message is checked here but not sent.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTAGRAM ============ -->
+<section class="insta" id="instagram" aria-labelledby="insta-title">
+  <div class="container">
+    <header class="head reveal">
+      <p class="label"><svg class="ic"><use href="#i-instagram"/></svg>Instagram</p>
+      <h2 id="insta-title">A Little More Green <em>Every Day.</em></h2>
+      <a class="btn btn--dark" data-ig id="igFollow" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-instagram"/></svg>Follow Us<span class="sr"> (opens in a new tab)</span></a>
+    </header>
+  </div>
+  <ul class="insta__grid" id="instaGrid"></ul>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="news" id="newsletter" aria-labelledby="news-title">
+  <div class="container news__in reveal">
+    <div>
+      <h2 id="news-title">Stay Connected With <em>Nature.</em></h2>
+      <p>Seasonal plant tips, new arrivals and offers. Once a month, never more.</p>
+    </div>
+    <form id="newsForm" novalidate>
+      <label class="sr" for="n-email">Email address</label>
+      <div class="news__row"><input id="n-email" type="email" autocomplete="email" placeholder="Your email address" required aria-describedby="n-email-e"><button type="submit" class="btn btn--accent">Subscribe</button></div>
+      <p class="err err--light" id="n-email-e" aria-live="polite"></p>
+      <p class="form-note form-note--light">Demo only: addresses are checked here but not stored.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="logo logo--light" href="#home" aria-label="VERDANT, home"><svg class="ic logo__leaf" aria-hidden="true"><use href="#i-sprout"/></svg><span class="logo__text">VERDANT<small>Plants, Flowers &amp; Gardening</small></span></a>
+        <p class="footer__tag">Bring Nature Home.</p>
+        <p>A plant nursery, flower shop and gardening studio. We help you fill your home and garden with healthy plants, fresh flowers and good ideas.</p>
+        <ul class="social" aria-label="VERDANT on social media">
+          <li><a data-ig href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in a new tab)"><svg class="ic"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook (opens in a new tab)"><svg class="ic"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest (opens in a new tab)"><svg class="ic"><use href="#i-pinterest"/></svg></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube (opens in a new tab)"><svg class="ic"><use href="#i-youtube"/></svg></a></li>
+        </ul>
+      </div>
+      <nav aria-label="Shop categories"><h3>Shop</h3><ul>
+        <li><button type="button" class="flink" data-filter-link="indoor">Indoor Plants</button></li>
+        <li><button type="button" class="flink" data-filter-link="outdoor">Outdoor Plants</button></li>
+        <li><button type="button" class="flink" data-filter-link="flowers">Flowers</button></li>
+        <li><button type="button" class="flink" data-filter-link="pots">Pots</button></li>
+        <li><button type="button" class="flink" data-filter-link="accessories">Gardening</button></li>
+      </ul></nav>
+      <nav aria-label="Customer support"><h3>Support</h3><ul>
+        <li><a href="#delivery">Delivery</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button type="button" class="flink" id="footCart">Your Cart</button></li>
+        <li><button type="button" class="flink" id="footWish">Your Wishlist</button></li>
+      </ul></nav>
+      <nav aria-label="Plant care guides"><h3>Care Guides</h3><ul id="footGuides"></ul></nav>
+      <div><h3>Visit</h3>
+        <ul class="footer__contact">
+          <li><svg class="ic"><use href="#i-pin"/></svg><span data-cfg="address">14 Garden Lane, Indiranagar, Bengaluru, Karnataka 560038</span></li>
+          <li><svg class="ic"><use href="#i-phone"/></svg><a data-cfg-tel href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><svg class="ic"><use href="#i-mail"/></svg><a data-cfg-mail href="mailto:hello@verdant.example">hello@verdant.example</a></li>
+          <li><svg class="ic"><use href="#i-clock"/></svg><span>Mon to Sat 9 AM to 8 PM<br>Sunday 9 AM to 2 PM</span></li>
+        </ul>
+        <h3 class="footer__h3">Newsletter</h3>
+        <form id="footNewsForm" novalidate>
+          <label class="sr" for="fn-email">Email address</label>
+          <div class="news__row news__row--sm"><input id="fn-email" type="email" autocomplete="email" placeholder="Your email" required aria-describedby="fn-email-e"><button type="submit" class="btn btn--accent btn--sm">Join</button></div>
+          <p class="err err--light" id="fn-email-e" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>&copy; <span id="year">2026</span> VERDANT. All rights reserved.</p>
+      <ul class="footer__legal"><li><button type="button" class="flink" data-legal="privacy">Privacy Policy</button></li><li><button type="button" class="flink" data-legal="terms">Terms &amp; Conditions</button></li></ul>
+      <p>Demo website &middot; Sample products &amp; stock photography (Unsplash and public-domain sources) &middot; Designed by NexaWeb</p>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="toTop" type="button" aria-label="Back to top" hidden><svg class="ic"><use href="#i-up"/></svg></button>
+
+<!-- Product details dialog -->
+<dialog class="modal modal--wide" id="productModal" aria-labelledby="pmTitle">
+  <button type="button" class="modal__close" data-close aria-label="Close"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="pm" id="pmBody"></div>
+</dialog>
+
+<!-- Cart drawer -->
+<dialog class="drawer" id="cartDrawer" aria-labelledby="cartTitle">
+  <div class="drawer__in">
+    <header class="drawer__head"><h2 id="cartTitle">Your Cart</h2><button type="button" class="modal__close modal__close--in" data-close aria-label="Close cart"><svg class="ic"><use href="#i-x"/></svg></button></header>
+    <div class="drawer__body" id="cartBody"></div>
+    <footer class="drawer__foot" id="cartFoot"></footer>
+  </div>
+</dialog>
+
+<!-- Wishlist drawer -->
+<dialog class="drawer" id="wishDrawer" aria-labelledby="wishTitle">
+  <div class="drawer__in">
+    <header class="drawer__head"><h2 id="wishTitle">Your Wishlist</h2><button type="button" class="modal__close modal__close--in" data-close aria-label="Close wishlist"><svg class="ic"><use href="#i-x"/></svg></button></header>
+    <div class="drawer__body" id="wishBody"></div>
+    <footer class="drawer__foot" id="wishFoot"></footer>
+  </div>
+</dialog>
+
+<!-- Checkout dialog -->
+<dialog class="modal modal--wide" id="checkoutModal" aria-labelledby="coTitle">
+  <button type="button" class="modal__close" data-close aria-label="Close checkout"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="co">
+    <div class="co__main" id="coMain">
+      <h2 id="coTitle">Checkout</h2>
+      <p class="demo-note"><strong>Demo checkout.</strong> No payment is taken, no stock is reserved and no order is saved. You can send your order details to the shop on WhatsApp for them to confirm.</p>
+      <form id="coForm" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="o-name">Full name <span aria-hidden="true">*</span></label><input id="o-name" type="text" autocomplete="name" required aria-describedby="o-name-e"><p class="err" id="o-name-e" aria-live="polite"></p></div>
+          <div class="field"><label for="o-phone">Mobile number <span aria-hidden="true">*</span></label><input id="o-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="98765 43210" required aria-describedby="o-phone-e"><p class="err" id="o-phone-e" aria-live="polite"></p></div>
+          <div class="field field--full"><label for="o-email">Email <span aria-hidden="true">*</span></label><input id="o-email" type="email" autocomplete="email" required aria-describedby="o-email-e"><p class="err" id="o-email-e" aria-live="polite"></p></div>
+          <div class="field field--full"><label for="o-addr">House / street address <span aria-hidden="true">*</span></label><input id="o-addr" type="text" autocomplete="address-line1" required aria-describedby="o-addr-e"><p class="err" id="o-addr-e" aria-live="polite"></p></div>
+          <div class="field"><label for="o-area">Area <span aria-hidden="true">*</span></label><input id="o-area" type="text" autocomplete="address-line2" required aria-describedby="o-area-e"><p class="err" id="o-area-e" aria-live="polite"></p></div>
+          <div class="field"><label for="o-city">City <span aria-hidden="true">*</span></label><input id="o-city" type="text" autocomplete="address-level2" required aria-describedby="o-city-e"><p class="err" id="o-city-e" aria-live="polite"></p></div>
+          <div class="field"><label for="o-state">State <span aria-hidden="true">*</span></label><select id="o-state" required aria-describedby="o-state-e"><option value="">Choose your state</option></select><p class="err" id="o-state-e" aria-live="polite"></p></div>
+          <div class="field"><label for="o-pin">PIN code <span aria-hidden="true">*</span></label><input id="o-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" placeholder="560038" required aria-describedby="o-pin-e"><p class="err" id="o-pin-e" aria-live="polite"></p></div>
+          <div class="field field--full"><label for="o-note">Additional instructions <small>(optional)</small></label><textarea id="o-note" rows="2" maxlength="300" placeholder="Preferred delivery time, gift message, landmark..."></textarea></div>
+        </div>
+        <button class="btn btn--accent btn--block" type="submit">Place Order</button>
+      </form>
+    </div>
+    <aside class="co__sum" id="coSum" aria-label="Order summary"></aside>
+    <div class="co__review" id="coReview" hidden tabindex="-1">
+      <h2>Review your order</h2>
+      <p class="demo-note"><strong>Demo only.</strong> Nothing has been sent or saved yet. Open WhatsApp to message your order to the shop. The shop confirms availability, delivery and payment.</p>
+      <pre class="co__pre" id="coPre"></pre>
+      <div class="co__actions"><button type="button" class="btn btn--wa" id="coWa"><svg class="ic"><use href="#i-chat"/></svg>Send Order on WhatsApp</button><button type="button" class="btn btn--line-dark" id="coBack">Edit details</button></div>
+      <div class="co__confirm" id="coConfirm" hidden>
+        <p><strong>Did you send the order message on WhatsApp?</strong><br>Your cart stays until you confirm.</p>
+        <div class="co__actions"><button type="button" class="btn btn--dark" id="coClear">Yes, clear my cart</button><button type="button" class="btn btn--line-dark" id="coKeep">No, keep my cart</button></div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- Article dialog -->
+<dialog class="modal" id="articleModal" aria-labelledby="arTitle">
+  <button type="button" class="modal__close" data-close aria-label="Close article"><svg class="ic"><use href="#i-x"/></svg></button>
+  <article class="ar" id="arBody"></article>
+</dialog>
+
+<!-- Legal dialog -->
+<dialog class="modal modal--narrow" id="legalModal" aria-labelledby="legalTitle">
+  <button type="button" class="modal__close" data-close aria-label="Close"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="ar"><h2 id="legalTitle"></h2><div id="legalBody"></div></div>
+</dialog>
+
+<div class="toasts" id="toasts" role="status" aria-live="polite" aria-atomic="false"></div>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
